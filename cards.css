@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f7f6;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.card-img-container {
+    height: 160px;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.card-img-container img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btn-main {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+}
+
+.btn-main:hover {
+    background-color: #59359a;
+    color: white;
+}
+
